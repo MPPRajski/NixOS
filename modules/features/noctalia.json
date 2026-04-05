@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "bar": {
+      "barType": "simple",
+      "position": "top",
+      "monitors": [],
+      "density": "default",
+      "showOutline": false,
+      "showCapsule": true,
+      "capsuleOpacity": 1,
+      "capsuleColorKey": "none",
+      "widgetSpacing": 6,
+      "contentPadding": 2,
+      "fontScale": 1,
+      "backgroundOpacity": 0.93,
+      "useSeparateOpacity": false,
+      "floating": false,
+      "marginVertical": 4,
+      "marginHorizontal": 4,
+      "frameThickness": 8,
+      "frameRadius": 12,
+      "outerCorners": true,
+      "hideOnOverview": false,
+      "displayMode": "always_visible",
+      "autoHideDelay": 500,
+      "autoShowDelay": 150,
+      "showOnWorkspaceSwitch": true,
+      "widgets": {
+        "left": [
+          { "id": "Launcher" },
+          { "id": "Clock" },
+          { "id": "ActiveWindow" }
+        ],
+        "center": [
+          {
+            "id": "Workspace",
+            "hideUnoccupied": false,
+            "labelMode": "none"
+          }
+        ],
+        "right": [
+          { "id": "Tray" },
+          { "id": "Battery", "alwaysShowPercentage": true, "warningThreshold": 20 },
+          { "id": "ControlCenter", "useDistroLogo": true },
+          { "id": "Clock", "formatHorizontal": "HH:mm" }
+        ]
+      }
+    },
+    "colorScheme": {
+      "predefinedScheme": "Noctalia (default)",
+      "darkMode": true,
+      "schedulingMode": "off",
+      "manualSunrise": "06:30",
+      "manualSunset": "18:30",
+      "generationMethod": "tonal-spot",
+      "monitorForColors": ""
+    },
+    "templates": {
+      "activeTemplates": [],
+      "enableUserTheming": false
+    }
+  }
+}
